@@ -13,24 +13,20 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 */
-/*
-  FIXME(polymer-modulizer): the above comments were extracted
-  from HTML and may be out of place here. Review them and
-  then delete this comment!
-*/
-import '../../@polymer/polymer/polymer-legacy.js';
+
+import '@polymer/polymer/polymer-legacy.js';
 
 import './google-signin-aware.js';
-import '../../@polymer/iron-icon/iron-icon.js';
-import '../../@polymer/font-roboto/roboto.js';
-import '../../google-apis/google-js-api.js';
-import '../../@polymer/paper-ripple/paper-ripple.js';
-import '../../@polymer/paper-material/paper-material.js';
-import '../../@polymer/iron-flex-layout/iron-flex-layout-classes.js';
+import '@polymer/iron-icon/iron-icon.js';
+import '@polymer/font-roboto/roboto.js';
+import 'google-apis/google-js-api.js';
+import '@polymer/paper-ripple/paper-ripple.js';
+import '@polymer/paper-material/paper-material.js';
+import '@polymer/iron-flex-layout/iron-flex-layout-classes.js';
 import './google-icons.js';
 import './google-signin-styles.js';
-import { Polymer } from '../../@polymer/polymer/lib/legacy/polymer-fn.js';
-import { html } from '../../@polymer/polymer/lib/utils/html-tag.js';
+import { Polymer } from '@polymer/polymer/lib/legacy/polymer-fn.js';
+import { html } from '@polymer/polymer/lib/utils/html-tag.js';
 
 /**
  * Enum brand values.

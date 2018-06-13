@@ -13,16 +13,11 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 */
-/*
-  FIXME(polymer-modulizer): the above comments were extracted
-  from HTML and may be out of place here. Review them and
-  then delete this comment!
-*/
-import '../../@polymer/polymer/polymer-legacy.js';
+import '@polymer/polymer/polymer-legacy.js';
 
-import '../../google-apis/google-js-api.js';
-import { PolymerElement } from '../../@polymer/polymer/polymer-element.js';
-import { Polymer } from '../../@polymer/polymer/lib/legacy/polymer-fn.js';
+import 'google-apis/google-js-api.js';
+import { PolymerElement } from '@polymer/polymer/polymer-element.js';
+import { Polymer } from '@polymer/polymer/lib/legacy/polymer-fn.js';
 
 /**
  * Enum of attributes to be passed through to the login API call.
